@@ -21,8 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func helloClicked(_ sender: UIButton) {
+        infoLabel.text = "Hello World!"
     }
     @IBAction func clearClicked(_ sender: UIButton) {
+        infoLabel.text = ""
     }
     
 
